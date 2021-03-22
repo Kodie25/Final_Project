@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project: Foxes </title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="page3.html"></script>
+<script src="index.html"></script>
+<Head>      
+  <style type=text/css>   
+  body   
+  {  
+  height: 250vh;  
+  margin-top: 90px;  
+  padding: 5px;  
+  background-size: cover;  
+  font-family: sans-serif;  
+  }  
+  header {  
+  background-color: rgb(15, 15, 15);  
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 8px;  
+  height: 30px;  
+  display: flex;  
+  align-items: center;  
+  box-shadow: 0 0 55px 0 black;  
+  }  
+  header * {  
+  display: inline;  
+  }  
+  header li {  
+  margin: 40px;  
+  }  
+  header li a {  
+  color: rgb(0, 255, 115);  
+  text-decoration: none;  
+  }  
+  </style>   
+ 
+  <Body> 
+  
+    <header>
+   
+    
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="page2.html">Pictures</a></li>
+         <li><a href="page3.html">More Information</a></li>
+        
+         
+      </ul>
+    </nav>
+  </header>
+
+
+</head>
+<!--four columns -->
+<div class="shuffle expose">
+<div class="row">
+  <div class="column">
+    <img src="img/Picture2.jpg"  onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/Picture3.jpg"  onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/Picture4.jpg"  onclick="myFunction(this);">
+  </div>
+  <div class="row"></div>
+  <div class="column">
+    <img src="img/Picture8.jpg"  onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/Picture5.jpg"  onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="img/Picture7.jpg"  onclick="myFunction(this);">
+  </div>
+  <div class="row"></div>
+  <div class="column">
+    <img src="img/Picture1.jpg"  onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="img/download (2).jpg"  onclick="myFunction(this);">
+      
+      <!--expand  -->
+<div class="container">
+
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+ 
+  <img id="expandedImg" style="width: 250%">
+
+ 
+  <div id="imgtext"></div>
+</div>
+    </div>
+

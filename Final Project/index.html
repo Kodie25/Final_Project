@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project: Foxes </title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<script src="page3.html"></script>
+<script src="page2.html"></script>
+
+<Head>    
+    
+  <div id="backgroundImage">
+    <img src="https://cdn.pixabay.com/photo/2017/08/07/00/07/fox-2597803__340.jpg" style="opacity: 1;">
+   </div>
+
+  <style type=text/css>   
+  body   
+  {  
+  height: 250vh;  
+  margin-top: 90px;  
+  padding: 5px;  
+  background-size: cover;  
+  font-family: sans-serif;  
+  }  
+  header {  
+  background-color: rgb(15, 15, 15);  
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 8px;  
+  height: 30px;  
+  display: flex;  
+  align-items: center;  
+  box-shadow: 0 0 55px 0 black;  
+  }  
+  header * {  
+  display: inline;  
+  }  
+  header li {  
+  margin: 40px;  
+  }  
+  header li a {  
+  color: rgb(0, 255, 115);  
+  text-decoration: none;  
+  }  
+  
+  </style>   
+  </Head>  
+  <Body> 
+    <h1>Date &nbsp; &nbsp; &nbsp; Time</h1>
+<input type="datetime" id="currentDateTime">
+<script>
+  var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+  document.getElementById("currentDateTime").value = dateTime;
+</script>
+
+    <header>
+   
+    
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="page2.html">Pictures</a></li>
+         <li><a href="page3.html">More Information</a></li>
+        
+        
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <div>Kodie Fernandez</div>
+    <body>
+      <br>
+      <input type="text" size="14" maxlength="10" >Username<br>
+      <input type="password" size="14"> Password <br>
+      <input type="submit" value="Sign-in">
+      <input type="submit" value="Create-Account">
+ 
+    </body>
+    <div class="content-wrapper">
+      <div class="two-column-wrapper">
+        <div class="profile-image-wrapper">
+          <img src="img/download (1).jpg" height="500px" width="900px">
+          <h1>This is a website designed for Foxes</h1>
+          <p>
+            A <code>red foxes</code> has a relatively long body with dense fur. The fur is typically a rusty red color, and the legs are darker in color, sometimes even black. Foxes have black pointed ears and long canine teeth. On their underside, the fur is white from their nose down to their belly. A male fox, also called a “dog” weighs 10-12 pounds on average, while the female fox, also known as a 
+            “vixen,” weighs 9-10 pounds. A male measures 54”-78” long, and a female measures 56”-74” long. Male foxes tend to have a longer snout as well.
+            Red Foxes mate in the winter and the female fox gives birth to a litter of 2-12 “kits” in the spring. The kits are dark gray in color at the time of birth, but grow a new coat within a month. Both the male and female fox cares for the kits until they are ready to leave in the fall. Female foxes reach sexual maturity at the age of 10 months, while male foxes take a little longer to mature. The average lifespan in the wild is 2-4 years.
+          </p>
+          <p>
+            In cold places, <code>red foxes</code> have even longer, thicker winter coats. Instead of hiding out in a den, a red fox will usually just curl up right out in the open.
+           Wrapped in its big, bushy tail, the fox stays nice and warm— even when it's completely covered by snow. Finding food is a bigger problem.
+            
+          </p>
+
+        
+
+          
+          <iframe width="560" height="315" src= "https://www.youtube.com/embed/IPhJ2X7tJQg?start=1" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           allowfullscreen></iframe>
+           
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/D2SoGHFM18I" title="YouTube video player" 
+           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+          
+    
+
+          <div class="p-2">
+            <p>Sign in required to sign up for emails!</p>
+            <form onsubmit="alert('Thank you, youre now signed up for emails!');setTimeout(function(){window.location.reload();},10);">
+            <div>
+            <input type="checkbox" name="send_newsletter" id="send_newsletter" />
+            <label for="send_newsletter">Send me fox Newsletters</label>
+            </div>
+            <div>
+            <input type="checkbox" name="agree" id="agree" value="yes agree"/>
+            <label for="agree">Agree to Terms.</label>
+            </div>
+              <div>
+              <input type="submit" name="submit" value="Submit"/>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="profile-content-wrapper">
+
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+  
+</body>
+</html>
+
